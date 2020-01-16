@@ -1,7 +1,5 @@
 package com.godric.base;
 
-import com.sun.security.jgss.GSSUtil;
-
 /**
  * @author Godric
  * @date 2020/1/3 17:32
@@ -14,7 +12,7 @@ import com.sun.security.jgss.GSSUtil;
  *      3. BLOCKED          Waiting Execute Synchronized Code
  *      4. WAITING          wait(), join(), park()
  *      5. TIMED_WAITING    Waiting With Timed Out
- *      6. Terminated       Completed
+ *      6. TERMINATED       Completed
  *
  */
 
